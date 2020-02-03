@@ -5,15 +5,53 @@
   * Outline Elements
 */
 
+<link href="https://fonts.googleapis.com/css?family=MedievalSharp|Quicksand&display=swap" rel="stylesheet"> 
+
 * {
     outline: 1px dotted black;
 }
 
 /* Parent Contaner */
 
+h1 {
+  font-family: 'MedievalSharp', cursive;
+  text-align: center;
+  font-size: 32px;
+}
+
+hr {
+  width: 95%;
+  height: 3px;
+  background-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  }
+
+.trailer {
+  width: 50%;
+  margin: auto;
+}
+
+blockquote {
+  font-family: 'MedievalSharp', cursive;
+  font-size: 26px;
+}
+
 main { 
+  background-image: linear-gradient(#2F4454, #000044, black);
+  color: white;
   display: grid;
   grid-template-columns: 1fr;
+  margin: auto;
+}
+
+.info {
+  width: 50%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
 }
 
 /* The Cast of the Move */
@@ -21,7 +59,36 @@ main {
 .cast {  
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
+
+section {
+  width: 75%;
+}
+
+.plyr button {
+  color: #E0A513;
+}
+
+.plyr__control--overlaid {
+  background: #2F4454;
+}
+
+.plyr--full-ui input[type="range"] {
+  color: #2F4454;
+}
+
+.plyr__volume input[type="range"] {
+  color: #E0A513;
+}
+
+.cast {
+}
+
+
+
+
 
 /* Media Queries */
 /* 
@@ -76,9 +143,6 @@ main {
   }
 
 }
-
-
-
 
 @media only screen 
   and (min-width: 0) 
