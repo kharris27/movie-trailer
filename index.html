@@ -19,94 +19,90 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <!-- Library Styling -->
     <link rel="stylesheet" href="css/plyr.css">
+    <link rel="https://unpkg.com/splitting/dist/splitting-cells.css"></link>
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"></link>
     <!-- My Styles -->
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<body>
-
-     <main>
-  
-
-        <header>
-          <h1>Harry Potter and the Prisoner of Azkaban</h1>  
-        </header>
-
-        <hr>
-
-        <section class="trailer">
-          
-            <div id="player"
-                data-plyr-provider="youtube"
-                data-plyr-embed-id="lAxgztbYDbs">
-            </div>
-
-        </section>
-        
-        <blockquote>
-          "Something wicked this way comes" 
-        </blockquote>
-        
-        <hr>
-
-        <section class="info">
-          <p> Harry Potter and the Prisoner of Azkaban was released in 2004 and is rated PG. An addition to the Harry Potter series, Harry Potter attends his third year at Hogwarts. Harry and his fellow classmates receive a new professor for "Against the Dark Arts", Professor Lupin, but there is trouble. A convicted murderer, Sirius Black, escapes Azkaban and is after Harry Potter. </p>
-          
-          <p> I have seen this movie numereous times; I know word for word. This is one of my all-time favorite movies and rewatching it, as many times as I do, I still learn new things about this movie and the series. This is the first of the Harry Potter series to be dark and mysterious. Also, it brings in many new character who become crucial for the future movies.</p>
-        </section>
-        
-        <section class="cast">
-      
-          <figure>
-            <img src="https://i1.wp.com/metro.co.uk/wp-content/uploads/2013/06/ay_111335926.jpg?quality=90&strip=all&zoom=1&resize=644%2C912&ssl=1" alt="Daniel Radcliff">
-            <h2>Daniel Radcliff</h2>
-          </figure>
-          
-          <figure>
-            <img src="https://img.zergnet.com/3208920_300.jpg" alt="Rupert Grint">
-            <h2>Rupert Grint</h2>
-          </figure>
-          
-          <figure>
-            <img src="https://netstorage-rumourjuice.akamaized.net/images/af3745f2ac3e7e0b.jpg" alt="Emma Watson">
-            <h2>Emma Watson</h2>
-          </figure>
-          
-          <figure>
-            <img src="https://bifa.imgix.net/web/2018/10/Gary-Oldman-Cropped.jpeg?auto=compress%2Cformat&ixlib=php-1.2.1" alt="Gary Oldman">
-            <h2>Gary Oldman</h2>
-          </figure>
-          
-          <figure>
-            <img src="https://bifa.imgix.net/web/2018/10/david-thewlis.jpg?auto=compress%2Cformat&fit=scale&h=2402&ixlib=php-1.2.1&w=1600&wpsize=xl" alt="David Thewlis">
-            <h2>David Thewlis</h2>
-          </figure>    
-          
-        </section>
-        
-        <aside>
-          <ul>
-            <li><a href="#">Fandango</a></li>
-            <li><a href="https://www.imdb.com/title/tt0304141/">IMDB</a></li>
-            <li><a href="#">Social Media</a></li>
-          </ul>
-        </aside>
-        
-        <footer>
-          <p>&copy; Copyright 2020 Studio Name. All the fine print.</p>
-        </footer>
-        
-      </main>
 
 
 
+
+<main>
+
+  <h3 class="site-title">Harry Potter Series</h3>
+
+  <div class="lfccrest">
+    <img src="/img/harry_potter.png" alt="Harry Potter">
+  </div>	
+
+  <article>
+    
+    <h1 class="mask" id="letterpress">Something wicked this way comes...</h1>
+
+    <section class="trailer">
+    
+      <div id="player"
+          data-plyr-provider="youtube"
+          data-plyr-embed-id="lAxgztbYDbs">
+      </div>
+    
+  </section>
+
+    <h2 class="subtitle">Harry Potter and the Prisoner of Azkaban</h2>
+
+    <section class="main-copy twocolumn">
+      <p>Harry Potter and the Prisoner of Azkaban was released in 2004 and is rated PG. An addition to the Harry Potter series, Harry Potter attends his third year at Hogwarts. Harry and his fellow classmates receive a new professor for "Against the Dark Arts", Professor Lupin, but there is trouble. A convicted murderer, Sirius Black, escapes Azkaban and is after Harry Potter.</p>
+
+      <p>I have seen this movie numereous times; I know word for word. This is one of my all-time favorite movies and rewatching it, as many times as I do, I still learn new things about this movie and the series. This is the first of the Harry Potter series to be dark and mysterious. Also, it brings in many new character who become crucial for the future movies.</p>
+
+    </section>
+
+<div class="actors">  
+  <div class="cast">
+    <img src="/img/daniel_radcliff.jpg" alt="Daniel Radcliff">
+    <li>Harry Potter</li>
+    <li>Daniel Radcliff</li>
+  </div>
+  <div class="cast">
+   <img src="/img/rupert_grint.jpg" alt="Rupert Grint">
+  </div>
+  <div class="cast">
+   <img src="/img/emma_watson.jpg" alt="Emma Watson">
+  </div>
+  <div class="cast">
+   <img src="/img/gary_oldman.jpeg" alt="Gary Oldman">
+  </div>
+  <div class="cast">
+   <img src="/img/david_thewlis.jpg" alt="David Thewlis">
+  </div>
+</div>
+
+
+    <section class="player-stats">
+
+      <div class="wrapper">
+        <div><span>2004</span>Year</div>
+        <div><span>90%</span>Rotten Tomatoes</div>
+        <div><span>PG</span>Rated</div>
+      </div>
+    </section>
+
+
+
+  </article>
+
+</main>
 
 
 
 
     <!-- JS Libraries -->
     <script src="js/plyr.min.js"></script>
+    <script src-"https://unpkg.com/splitting/dist/splitting.min.js"></script>
     <!-- My Scripts -->
     <script src="js/scripts.js"></script>
+ 
 </body>
 </html>
