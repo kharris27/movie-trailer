@@ -135,7 +135,7 @@ body {
 -webkit-font-smoothing: antialiased;
 font-smoothing: antialiased;
 font-family: var(--font-family);
-background: #fff;
+background: #E8E8E8;
 background-size: 100%;
 display: grid;
 grid-template-columns: 1fr;
@@ -189,6 +189,8 @@ dl {
 }
 
 p {
+  margin-left: -50px;
+  margin-left: 65px;
 margin-bottom: var(--margin-large);
  text-align: justify;
 }
@@ -311,8 +313,9 @@ grid-column: 1;
 grid-gap: 50px 50px;
 display: grid;
 grid-template-columns: 1fr 1fr;
-padding: 20px;
+padding: 200px;
 position: relative;
+margin-left: 100px;
 }
 
 .lfccrest {
@@ -500,7 +503,7 @@ column-gap: 30px;
 }
 
 .actors {
-  margin-left: -500px;
+  margin-left: -800px;
   display: flex;
   justify-content: center;
 }
@@ -511,7 +514,7 @@ column-gap: 30px;
   width: 100px;
   position: relative; 
   overflow: hidden;
-  margin-right: 15px;
+  margin-right: 65px;
 }
 
 .trailer {
@@ -544,15 +547,22 @@ h4 {
                -1px 1px 0 white,
                1px 1px 0 white;
 
-  color: black;
-  
+  color: black; 
   letter-spacing: var(--letterSpacing);
-
   font-size: 150px;
-  font-weight: bold; 
+  font-weight: bold;
+  margin-left: 100px; 
+  margin-top: 100px;
 }
 
 [data-word="wicked"] {
   animation: flash 3s infinite;
   display: inline-block;
+}
+
+.actorname {
+  display: flex;
+  justify-content: center;
+  width: 839px;
+  margin-left: 100px;
 }
